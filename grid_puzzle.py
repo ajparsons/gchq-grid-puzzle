@@ -13,7 +13,7 @@ def get_combo(slots,size,starting=[]):
     """
     given the number of slots and how many items to distribute
     - produce a list of all possible combinations where 
-    that number of slots adds up to levels
+    that number of slots adds up to the size needed
     """
     items = []
     if len(starting) < slots :
